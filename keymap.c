@@ -69,15 +69,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------|------+------+------+------+------+------|
  * |      |      |      | Caps |      |      |      | Tab  |   0  |   .  |   /  |      |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * |Brite |Qwerty|      |      |      |    Space    |      | Left | Down |  Up  |Right |
+ * |Bklght|Qwerty|      |      |      |    Space    |      | Left | Down |  Up  |Right |
  * `-----------------------------------------------------------------------------------'
  */
 [_LOZENGE] = LAYOUT_preonic_grid(
-  _______, _______, _______, _______, _______, _______, _______, KC_7,    KC_8,    KC_9,    KC_PLUS, KC_BSPC,
-  _______, _______, _______, _______, _______, _______, _______, KC_4,    KC_5,    KC_6,    KC_MINS, KC_DEL,
-  _______, _______, _______, _______, _______, _______, _______, KC_1,    KC_2,    KC_3,    KC_ASTR, KC_ENT,
-  _______, _______, _______, KC_CAPS, _______, _______, _______, KC_TAB,  KC_0,    KC_DOT,  KC_SLSH, _______,
-  BACKLIT, QWERTY,  _______, _______, _______, KC_SPC,  KC_SPC,  _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
+  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_7,    KC_8,    KC_9,    KC_PLUS, KC_BSPC,
+  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_4,    KC_5,    KC_6,    KC_MINS, KC_DEL,
+  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_1,    KC_2,    KC_3,    KC_ASTR, KC_ENT,
+  XXXXXXX, XXXXXXX, XXXXXXX, KC_CAPS, XXXXXXX, XXXXXXX, XXXXXXX, KC_TAB,  KC_0,    KC_DOT,  KC_SLSH, XXXXXXX,
+  BL_TOGG, QWERTY,  XXXXXXX, XXXXXXX, XXXXXXX, KC_SPC,  KC_SPC,  XXXXXXX, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
 ),
 
 /* Dvorak (who fucking cares)
